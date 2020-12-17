@@ -1,2 +1,2 @@
-/* 1 ­ Faça um algoritmo que leia quatro números informados pelo usuário e que depois imprima a média ponderada, sabendo­se que os pesos
-são respectivamente: 1, 2, 3 e 4:*/
+/* 13. Elabore um programa que leia o tamanho do lado de um quadrado e informe a área 
+e o perímetro do quadrado. (Perímetro = 4 * L; área = L ^ 2).*/
