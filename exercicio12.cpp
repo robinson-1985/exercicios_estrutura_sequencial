@@ -7,10 +7,16 @@ do mesmo.*/
 
 #include <stdio.h>
 int main(){
+    float custo_fabrica, percentagem_distribuidor, impostos, custo_consumidor;
+    printf("Digite o custo de fábrica do carro: R$ ");
+    scanf("%f", &custo_fabrica);
 
+    impostos = custo_fabrica * 0.45;
+    percentagem_distribuidor = custo_fabrica * 0.28;
+    custo_consumidor = custo_fabrica + impostos + percentagem_distribuidor;
 
-
-
+    printf("O custo final ao consumidor é: R$ %.2f\n", custo_consumidor);
+    
     getchar ();
     return 0;
 }
