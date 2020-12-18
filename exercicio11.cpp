@@ -4,10 +4,16 @@ informado pelo usuário.*/
 
 #include <stdio.h>
 int main(){
+    float preco_custo, preco_venda, percentual;
+    printf("Digite o preço de custo do produto: R$ ");
+    scanf("%f", &preco_custo);
+    printf("Digite o percentual de acréscimo do produto: ");
+    scanf("%f", &percentual);
 
-
-
+    percentual = (percentual/100) * preco_custo;
+    preco_venda = preco_custo + percentual;
+    printf("O preço de venda é: R$ %.2f \n", preco_venda);
 
     getchar ();
     return 0;
-}
+} 

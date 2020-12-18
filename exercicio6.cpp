@@ -4,9 +4,15 @@ Quantidade de dólares guardados no cofre e cotação do dólar naquele dia.*/
 
 #include <stdio.h>
 int main(){
+    float dolares, cotacao_dolar, real;
+    printf("Digite a quantidade de dólares guardados no cofre: $ ");
+    scanf("%f", &dolares);
+    printf("Digite a cotação do dólar hoje: $ ");
+    scanf("%f", &cotacao_dolar);
+
+    real = dolares * cotacao_dolar;
+    printf("O valor em reais é: R$ %.2f\n", real);
     
-
-
 
     getchar ();
     return 0;
