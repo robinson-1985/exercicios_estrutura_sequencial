@@ -3,15 +3,15 @@ e o perímetro do quadrado. (Perímetro = 4 * L; área = L ^ 2).*/
 
 #include <stdio.h>
 int main(){
-    int lado, quadrado, area_quadrado, perimetro_quadrado;
+    int lado, quadrado, area, perimetro;
     printf("Declare o tamanho do lado do quadrado: ");
     scanf("%d", &lado);
 
-    perimetro_quadrado = 4 * lado;
-    printf("O perímetro do quadrado é: %d \n", perimetro_quadrado);
+    perimetro = 4 * lado;
+    printf("O perímetro do quadrado é: %d \n", perimetro);
 
-    area_quadrado = lado ^ 2; 
-    printf("A área do quadrado é: %d \n", area_quadrado);
+    area = lado * lado; 
+    printf("A área do quadrado é: %d \n", area);
 
     getchar ();
     return 0;

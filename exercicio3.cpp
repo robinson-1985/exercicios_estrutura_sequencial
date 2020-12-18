@@ -9,7 +9,6 @@ int main(){
     scanf("%f", &valor_produto);
 
     novo_valor = valor_produto - (valor_produto * 0.09);
-
     printf("O novo valor do produto com desconto é: %.2f", novo_valor); 
 
     getchar ();

@@ -9,7 +9,6 @@ int main() {
     scanf("%f", &celsius);
 
     farenheit = (9 * celsius + 160) / 5;
-
     printf("A temperatura em °C para °F é: %.2f °F \n", farenheit);
 
     getchar ();
